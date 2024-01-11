@@ -13,7 +13,7 @@ let assignmentDatabase = [...assignments];
 let commentDatabase = [...comments];
 
 app.get("/", (req, res) => {
-  return res.json("Hello Mickey");
+  return res.json("Hello");
 });
 
 app.get("/assignment", (req, res) => {
